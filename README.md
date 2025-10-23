@@ -55,6 +55,7 @@ this project uses PyTorch with CUDA for GPU acceleration.
    conda activate climate-pinn
    ```
 3. install dependencies
+   
    option a - using ``` environment.yml``` (recommended):
    ```
    conda env update --file environment.yml --prune
@@ -65,13 +66,13 @@ this project uses PyTorch with CUDA for GPU acceleration.
    conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
    conda install numpy matplotlib
    ```
-4. verify installation
+5. verify installation
    check python & pytorch:
    ```
    python --version
    python -c ""import torch; print('CUDA available:', torch.cuda.is_available())"
    ```
-5. run
+6. run
    ```
    # 1d heat equation
    python heat_pinn.py
