@@ -69,15 +69,15 @@ The best part of this is that it helps you setup the project fastly efficently ,
    ```
 6. Run 
 
-   - For heat equation 
+   - For heat-diffusion equation 
         ```
         python heat_pinn.py
         ```
    - For comparing the PINN and data-only NN 
-        ```
-    python compare_models.py
-        ```
-   - For the 
+      ```
+      python compare_models.py
+      ```
+   - For advection-diffusion
         ```
         python advection_pinn.py
         ```
